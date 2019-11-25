@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.host.url>http://18.191.165.154:8081/</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -76,10 +77,10 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
-  <snapshotRepository>
+<distributionManagement>
+        <snapshotRepository>
     <id>nexus</id>
-    <url>http://18.191.238.172:8081/nexus/content/repositories/snapshots</url>
+    <urlhttp://18.191.165.154:8082/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
